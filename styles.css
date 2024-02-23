@@ -67,12 +67,12 @@ body {
   transform: translateX(0);
 }
 
-.slide-right {
+.img-wrapper > .content.slide-right {
+  transform: translateX(100%);
 }
-
-.slide-up {
+.img-wrapper:hover > .content.slide-right {
+  transform: translateX(0);
 }
-
 .slide-down {
 }
 
