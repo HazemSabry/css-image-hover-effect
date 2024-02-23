@@ -28,6 +28,14 @@ body {
 }
 
 .img-wrapper > .content {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blur {
