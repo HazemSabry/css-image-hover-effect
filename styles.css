@@ -89,3 +89,7 @@ body {
 .img-wrapper:hover > .content.slide-up {
   transform: translateY(0);
 }
+
+.img-wrapper:hover > img.gray {
+  filter: grayscale(1);
+}
