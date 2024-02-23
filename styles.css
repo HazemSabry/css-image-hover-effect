@@ -70,12 +70,22 @@ body {
 .img-wrapper > .content.slide-right {
   transform: translateX(100%);
 }
+
 .img-wrapper:hover > .content.slide-right {
   transform: translateX(0);
 }
+
 .img-wrapper > .content.slide-down {
   transform: translateY(-100%);
 }
+
 .img-wrapper:hover > .content.slide-down {
+  transform: translateY(0);
+}
+
+.img-wrapper > .content.slide-up {
+  transform: translateY(100%);
+}
+.img-wrapper:hover > .content.slide-up {
   transform: translateY(0);
 }
