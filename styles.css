@@ -73,8 +73,9 @@ body {
 .img-wrapper:hover > .content.slide-right {
   transform: translateX(0);
 }
-.slide-down {
+.img-wrapper > .content.slide-down {
+  transform: translateY(-100%);
 }
-
-.gray {
+.img-wrapper:hover > .content.slide-down {
+  transform: translateY(0);
 }
