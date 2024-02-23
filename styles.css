@@ -59,10 +59,12 @@ body {
   transform: scale(1.1);
 }
 
-.img-wrapper > img.slide-left {
+.img-wrapper > .slide-left {
+  transform: translateX(-100%);
 }
 
-.img-wrapper:hover > img.slide-left {
+.img-wrapper:hover > .slide-left {
+  transform: translateX(0);
 }
 
 .slide-right {
